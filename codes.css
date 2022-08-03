@@ -1,0 +1,168 @@
+<section id="featured">
+  <div id="featured-carousel" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-inner" style="color: #fff;">
+      <div class="carousel-item">
+        <div class="d-flex h-100">
+          <h1>Rate Us on google reviews</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis
+            aute irure dolor in reprehenderit in voluptate
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <div class="d-flex h-100">
+          <div class="grid-container">
+            <div class="grid-item text">
+              <h1>Coming Soon</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis
+                aute irure dolor in reprehenderit in voluptate
+              </p>
+              <a href="https://youtu.be/BcDK7lkzzsU" style="color: white; text-decoration: none;" class="a-featured"><i class="fa-solid fa-circle-play"></i> Watch Trailer</a>
+            </div>
+            <div class="grid-item">
+              <img src="movieimages/smile_comingsoon.jpg" alt="smile_movie.jpg" width="200">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#featured-carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#featured-carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</section>
+
+<!----------------------->
+<!--   Movie Listings  -->
+<!----------------------->
+<section id="movie-list">
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col-lg-2 col-md-4">
+        <img src="movieimages/elvis.jpg" alt="elvis.jpg" height="300">
+      </div>
+      <div class="col-lg-2 col-md-4">
+        <img src="movieimages/elvis.jpg" alt="elvis.jpg" height="300">
+      </div>
+      <div class="col-lg-2 col-md-4">
+        <img src="movieimages/elvis.jpg" alt="elvis.jpg" height="300">
+      </div>
+      <div class="col-lg-2 col-md-4">
+        <img src="movieimages/elvis.jpg" alt="elvis.jpg" height="300">
+      </div>
+      <div class="col-lg-2 col-md-4">
+        <img src="movieimages/elvis.jpg" alt="elvis.jpg" height="300">
+      </div>
+      <div class="col-lg-2 col-md-4">
+        <img src="movieimages/elvis.jpg" alt="elvis.jpg" height="300">
+      </div>
+    </div>
+  </div> -->
+    <div class="grid-container">
+      <div class="grid-item">
+        <img src="movieimages/elvis.jpg" alt="elvis.jpg" width="200" height="300">
+      </div>
+      <div class="grid-item">
+        <img src="movieimages/smile_comingsoon.jpg" alt="smile_movie.jpg" width="200" height="300">
+      </div>
+      <div class="grid-item">
+        <img src="movieimages/everything.jpg" alt="elvis.jpg" width="200" height="300">
+      </div>
+      <div class="grid-item">
+        <img src="movieimages/jurassic.jpg" alt="elvis.jpg" width="200" height="300">
+      </div>
+      <div class="grid-item">
+        <img src="movieimages/spiderhead.jpg" alt="elvis.jpg" width="200" height="300">
+      </div>
+      <div class="grid-item">
+        <img src="movieimages/elvis.jpg" alt="elvis.jpg" width="200" height="300">
+      </div>
+    </div>
+
+</section>
+
+<!------------------------->
+<!--  Private Screening -->
+<!------------------------->
+<section id="private-screen">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 d-flex justify-content-center">
+        <img class="img-fluid" src="images/private.jpg" alt="private-screening.jpg">
+      </div>
+      <div class="col-lg-6" style="padding-top: 2%;">
+        <h1 class="inverted">Private Screening Party</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis
+          aute irure dolor in reprehenderit in voluptate . . . <a href="#private-screen-page" class="learn-more"><em> Learn More <i class="fa-solid fa-angle-right"></i></em></a>
+        </p>
+        <button type="button" class="btn btn-outline-danger">Reserve Now</button>
+      </div>
+    </div>
+  </div>
+</section>
+<!----------------------->
+<!------  About Us ------>
+<!----------------------->
+<section id="about-us">
+  <div class="container">
+    <div class="row gx-5">
+      <div class="col-lg-6 col-item">
+        <div class="p-3 border bg-light">
+          <i class="fa-solid fa-couch fa-10x icon"></i>
+          <h2 class="inverted"> Comfort Seating</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-item">
+        <div class="p-3 border bg-light">
+          <i class="fa-solid fa-kit-medical fa-10x icon"></i>
+          <h2 class="inverted"> Health Protocols</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+            . . . <a href="#private-screen-page" class="learn-more"><em> Learn More <i class="fa-solid fa-angle-right"></i></em></a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!----------------------->
+<!------  Footer  ------>
+<!----------------------->
+
+<section id="footer">
+  <div class="container">
+    <i class="fa-solid fa-location-dot footer-icon"></i> 2100 Hughes Rd, Madison, AL 35758
+    <i class="fa-solid fa-phone footer-icon"></i> (256)-890-7027
+    <i class="fa-solid fa-envelope footer-icon"></i> Questions? Contact Us
+    <p id="copyright">© Copyright Janilou Sy</p>
+  </div>
+
+
+</section>
+
+
+/* ----------------Movie Listings---------------- */
+/* #movie-list{
+  margin-bottom: 2rem;
+  background-color: #CF4647;
+  align-items: center;
+  justify-content: center;
+}
+
+#movie-list .grid-item{
+  display:inline-grid;
+}
+#movie-list .grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 20px;
+} */

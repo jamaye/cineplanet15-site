@@ -1,0 +1,249 @@
+@font-face {
+  font-family: 'DKOtago';
+  src: url("../dafont/DKOtago.otf");
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #B98E27;
+  color: #413F42;
+}
+
+h1, h2, h3 {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'DKOtago';
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*
+nav ul a:hover {
+  box-shadow: 0px 4px 0px 0px red;
+} */
+/*-----------Navigation Section------------- */
+#navbar-name {
+  color: #CF4647;
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.form-control {
+  border: 1px solid #CF4647;
+}
+
+.input-text:focus {
+  box-shadow: 0px 0px 0px;
+  border-color: #CF4647;
+  outline: 0px;
+}
+
+.input-group {
+  font-family: 'Source Sans Pro', sans-serif;
+  max-width: 300px;
+}
+
+.navbar {
+  font-family: DKOtago, sans-serif;
+  background-color: white;
+}
+
+.nav-item {
+  padding: 0 0.5rem;
+}
+
+.nav-item>.active {
+  border-bottom: solid;
+  border-color: #CF4647;
+}
+
+.nav-link {
+  color: #CF4647;
+}
+
+.nav-item:last-child {
+  margin-right: 1rem;
+}
+
+/* ---------------Featured Section------------ */
+#featured {
+  margin: 6rem 1.5rem 1.5rem 1.5rem;
+  background-image: url("../images/gold-red-opaque.png");
+  background-size: contain;
+
+}
+
+.a-featured:hover {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#featured .carousel-item {
+  padding: 0 10%;
+  height: 350px;
+}
+
+#featured .carousel-control-next, #featured .carousel-control-prev {
+  width: 10%;
+}
+
+#featured .carousel-item .d-flex {
+  display: inline-grid !important;
+  align-content: center;
+}
+
+#featured .grid-container {
+  display: grid;
+  grid-template-columns: auto 30%;
+  gap: 20px;
+}
+
+#featured .grid-item.text {
+  padding-top: 7%;
+}
+
+/* ----------------Movie Listings---------------- */
+#movie-list {
+  height: 600px;
+  background-color: #CF4647;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 767px) {
+  .movie-listing .carousel-inner .carousel-item>div {
+    display: none;
+  }
+
+  .movie-listing .carousel-inner .carousel-item>div:first-child {
+    display: block;
+  }
+
+  .movie-listing .img-fluid {
+    height: auto;
+  }
+}
+
+.movie-listing .carousel-inner .carousel-item.active,
+.movie-listing .carousel-inner .carousel-item-next,
+.movie-listing .carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+  .movie-listing .carousel-inner .carousel-item-end.active,
+  .movie-listing .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+
+  .movie-listing .carousel-inner .carousel-item-start.active,
+  .movie-listing .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.movie-listing .carousel-inner .carousel-item-end,
+.movie-listing .carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
+
+/* Movie image adjusting */
+.movie-listing .img-movie {
+  height: 500px;
+}
+
+/*--------------Private Screening---------------- */
+#private-screen .container-fluid {
+  background-color: #fff;
+  color: #413F42;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
+.inverted {
+  background:
+    linear-gradient(-45deg, #F5D061 40%, white 0 60%, #F5D061 0) right/300% 100% no-repeat,
+    linear-gradient(-45deg, white 40%, #F5D061 0 60%, white 0) right/300% 100% no-repeat;
+  -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
+}
+
+.inverted:hover {
+  background-position: left;
+  transition: 0.8s
+}
+
+/* --------About Us Section-------------------- */
+#about-us {
+  /* background-color: #F5D061; */
+  background-image: url("../images/gold-black-banner.png");
+  background-size: contain;
+}
+#about-us .container {
+  padding: 2% 15%;
+}
+
+.icon {
+  color: #CF4647;
+  margin-bottom: 1rem;
+}
+
+#about-us p {
+  text-align: justify;
+  color: #413F42;
+}
+
+#about-us .col-item{
+  border-radius: 5% 20%;
+}
+
+#about-us .row {
+  text-align: center;
+}
+
+.learn-more {
+  color: #919190;
+  text-decoration: none;
+  transition: background-color .5s;
+}
+
+.learn-more:hover {
+  color: #919190;
+  background-color: gold;
+}
+
+/* --------------Footer-------------- */
+#copyright {
+  padding-top: 1rem;
+  font-size: 14px;
+  color: #eee;
+}
+
+#footer {
+  background-color: #CF4647;
+  text-align: center;
+  padding: 3rem;
+  color: white;
+}
+
+.footer-icon {
+  margin-left: 30px;
+}
+
+.a-footer {
+  color: white;
+  text-decoration: none;
+}
+
+.a-footer:hover {
+  color: gold;
+  transition: 0.5s;
+}

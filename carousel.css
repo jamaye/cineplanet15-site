@@ -1,0 +1,170 @@
+#featured {
+  margin: 1.5rem;
+  margin-top: 5%;
+  background-image: url("../images/red-pattern.jpg");
+  background-blend-mode: soft-light;
+  background-color: #CF4647;
+}
+.a-featured:hover{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+.carousel-item {
+  padding: 0 10%;
+  height: 350px;
+}
+.carousel-control-next, .carousel-control-prev{
+  width:10%;
+}
+.carousel-item .d-flex {
+  display: inline-grid !important;
+  align-content: center;
+}
+
+#featured .grid-container {
+  display: grid;
+  grid-template-columns: auto 30%;
+  gap: 20px;
+}
+#featured .grid-item.text{
+  padding-top: 7%;
+}
+
+
+
+
+
+
+
+
+
+
+<!-------------------->
+<!-- Navigation Bar -->
+<!-------------------->
+<nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-dark">
+  <div class="container-fluid">
+    <a id="navbar-name" class="navbar-brand" href="#">Cineplanet15</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active hover" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link hover" href="#">Showtime</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link hover" href="#">Private Screening</a>
+        </li>
+      </ul>
+      <div class="input-group">
+        <input type="text" class="form-control input-text" placeholder="Search..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-outline-danger btn-md" type="button"><i class="fa fa-search"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+#navbar-name {
+  color: #413F42;
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.form-control {
+  border: 1px solid #CF4647;
+}
+
+.input-text:focus {
+  box-shadow: 0px 0px 0px;
+  border-color: #CF4647;
+  outline: 0px;
+}
+
+.input-group {
+  font-family: 'Source Sans Pro', sans-serif;
+  max-width: 300px;
+}
+
+.navbar {
+  font-family: DKOtago, sans-serif;
+  width: 100%;
+}
+
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.hover {
+  --s: 0.1em;   /* the thickness of the line */
+  --c: #CF4647; /* the color */
+
+  color: #0000;
+  padding-bottom: var(--s);
+  background:
+    linear-gradient(90deg,var(--c) 50%,#413F42 0) calc(100% - var(--_p,0%))/200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: 0.5s;
+}
+.hover:hover {
+  --_p: 100%
+}
+
+
+carousel for movies
+<!-- <div class="container">
+  <div class="row">
+    <div class="col-lg-2 col-md-4">
+      <img src="movieimages/elvis.jpg" alt="elvis.jpg" height="300">
+    </div>
+    <div class="col-lg-2 col-md-4">
+      <img src="movieimages/elvis.jpg" alt="elvis.jpg" height="300">
+    </div>
+    <div class="col-lg-2 col-md-4">
+      <img src="movieimages/elvis.jpg" alt="elvis.jpg" height="300">
+    </div>
+    <div class="col-lg-2 col-md-4">
+      <img src="movieimages/elvis.jpg" alt="elvis.jpg" height="300">
+    </div>
+    <div class="col-lg-2 col-md-4">
+      <img src="movieimages/elvis.jpg" alt="elvis.jpg" height="300">
+    </div>
+    <div class="col-lg-2 col-md-4">
+      <img src="movieimages/elvis.jpg" alt="elvis.jpg" height="300">
+    </div>
+  </div>
+</div> -->
+  <!-- <div class="grid-container">
+    <div class="grid-item">
+      <img src="movieimages/elvis.jpg" alt="elvis.jpg" width="200" height="300">
+    </div>
+    <div class="grid-item">
+      <img src="movieimages/smile_comingsoon.jpg" alt="smile_movie.jpg" width="200" height="300">
+    </div>
+    <div class="grid-item">
+      <img src="movieimages/everything.jpg" alt="elvis.jpg" width="200" height="300">
+    </div>
+    <div class="grid-item">
+      <img src="movieimages/jurassic.jpg" alt="elvis.jpg" width="200" height="300">
+    </div>
+    <div class="grid-item">
+      <img src="movieimages/spiderhead.jpg" alt="elvis.jpg" width="200" height="300">
+    </div>
+    <div class="grid-item">
+      <img src="movieimages/elvis.jpg" alt="elvis.jpg" width="200" height="300">
+    </div>
+  </div> -->
