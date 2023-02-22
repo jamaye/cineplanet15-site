@@ -5,7 +5,7 @@
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  background-color: #B98E27;
+  background-color: #413F42;
   color: #413F42;
 }
 
@@ -184,7 +184,7 @@ nav ul a:hover {
 /* --------About Us Section-------------------- */
 #about-us {
   /* background-color: #F5D061; */
-  background-image: url("../images/gold-black-banner.png");
+  /* background-image: url("../images/gold-black-banner.png"); */
   background-size: contain;
 }
 #about-us .container {
