@@ -73,7 +73,8 @@ nav ul a:hover {
 /* ---------------Featured Section------------ */
 #featured {
   margin: 6rem 1.5rem 1.5rem 1.5rem;
-  background-image: url("../images/gold-red-opaque.png");
+  background-image: url("../img/feat-bg.jpg");
+  /* background-color: #F5D061; */
   background-size: contain;
 
 }
@@ -112,52 +113,77 @@ nav ul a:hover {
 #movie-list {
   height: 600px;
   background-color: #CF4647;
-  padding-top: 2rem;
+  padding-top: 3rem;
   margin-bottom: 2rem;
 }
 
-@media (max-width: 767px) {
-  .movie-listing .carousel-inner .carousel-item>div {
-    display: none;
+.now-showing{
+  color: white;
+  text-align: center;
+  padding-bottom: 1rem;
+
+}
+
+.glow {
+  color: white;
+  text-align: center;
+  padding-bottom: 1rem;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0;
   }
 
-  .movie-listing .carousel-inner .carousel-item>div:first-child {
-    display: block;
-  }
-
-  .movie-listing .img-fluid {
-    height: auto;
+  to {
+    text-shadow: 0 0 10px #F5D061, 0 0 20px #F5D061;
   }
 }
 
-.movie-listing .carousel-inner .carousel-item.active,
-.movie-listing .carousel-inner .carousel-item-next,
-.movie-listing .carousel-inner .carousel-item-prev {
-  display: flex;
+.scroll-tray {
+  white-space: nowrap;
+}
+.scroll-tray div {
+  display: inline-block;
 }
 
-/* medium and up screens */
-@media (min-width: 768px) {
+.scroll-tray img {
+  border-radius: 0.3rem;
+  margin: 7px 5px;
+  padding: 0;
+  width: 340px;
+}
 
-  .movie-listing .carousel-inner .carousel-item-end.active,
-  .movie-listing .carousel-inner .carousel-item-next {
-    transform: translateX(25%);
+.scroll-holder {
+  overflow-x: hidden;
+}
+
+.scroll-holder .scroll-tray:first-child {
+  animation: scroll-tray-hero 180s linear infinite;
+}
+
+.scroll-holder .scroll-tray:last-child {
+  animation: scroll-tray-hero 120s linear infinite;
+}
+
+@keyframes scroll-tray-hero {
+  0% {
+    transform: translateX(0);
   }
 
-  .movie-listing .carousel-inner .carousel-item-start.active,
-  .movie-listing .carousel-inner .carousel-item-prev {
-    transform: translateX(-25%);
+  99.99% {
+    transform: translateX(-7098px);
+  }
+
+  100% {
+    transform: translateX(0);
   }
 }
 
-.movie-listing .carousel-inner .carousel-item-end,
-.movie-listing .carousel-inner .carousel-item-start {
-  transform: translateX(0);
-}
-
-/* Movie image adjusting */
-.movie-listing .img-movie {
-  height: 500px;
+.center-btn{
+  text-align: center;
+  padding: 1rem 1rem 3rem 0;
 }
 
 /*--------------Private Screening---------------- */
@@ -202,7 +228,12 @@ nav ul a:hover {
 }
 
 #about-us .col-item{
-  border-radius: 5% 20%;
+  border-radius: 5%;
+  margin-bottom: 2rem;
+  padding: 5rem;
+  border-style: dotted;
+  border-width: 1rem;
+  border-color: #F5D061;
 }
 
 #about-us .row {
@@ -230,7 +261,7 @@ nav ul a:hover {
 #footer {
   background-color: #CF4647;
   text-align: center;
-  padding: 3rem;
+  padding: 1rem;
   color: white;
 }
 
